@@ -42,13 +42,38 @@ html {
       height:6px;
       background:black;
       position: absolute;
+      right: 50%;
       top:50%;
       transform: rotate(90deg);
-      transform-origin: right;
+      transform-origin: 100%;
       transition:all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+      border-radius: 0.5em;
+      
     }
 
 .min-hand, .hour-hand {
     transition: none;
+}
+
+.hour-hand {
+  
+  height: 10px;
+  width: 40%;
+}
+
+.second-hand {
+    height: 4px;
+    background-color: red;
+}
+
+.clock-face::before {
+    content: "";
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top:47%;
+    right: 46%;
 }
