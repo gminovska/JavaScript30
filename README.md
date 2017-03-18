@@ -1,1 +1,1 @@
-* [Day1 - JavaScript Drum Kit] (http://www.gordanaminovska.com/JavaScript30/JavaScript%20Drum%20Kit/)
+* [JavaScript Drum Kit](http://www.gordanaminovska.com/JavaScript30/JavaScript%20Drum%20Kit/)
