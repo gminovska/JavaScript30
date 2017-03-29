@@ -123,9 +123,15 @@
     var panels = document.querySelectorAll('.panel');
     console.log(panels);
 
+
     function toggleOpen() {
-      panels.forEach(panel => panel.classList.remove('open'));
-      this.classList.toggle('open');
+
+      if(this.classList.contains('open')) {
+        this.classList.remove('open');
+        return;
+      }
+    panels.forEach(panel => panel.classList.remove('open')); 
+     this.classList.toggle('open');
     }
 
     function toggleActive(event) {
